@@ -1,0 +1,8 @@
+[
+  {"AssetID": "SRV-001", "Type": "Server", "Status": "active", "MFA_Enabled": null, "Encryption": "AES-256", "Owner": "alice@company.com"},
+  {"AssetID": "SRV-002", "Type": "server", "Status": "ACTIVE", "MFA_Enabled": false, "Encryption": "None", "Owner": "bob@company.com"},
+  {"AssetID": "SRV-002", "Type": "server", "Status": "ACTIVE", "MFA_Enabled": false, "Encryption": "None", "Owner": "bob@company.com"},
+  {"AssetID": "USR-105", "Type": "Employee Account", "Status": "Actv", "MFA_Enabled": true, "Encryption": "N/A", "Owner": "charlie@company.com"},
+  {"AssetID": "DB-044", "Type": "Database", "Status": "inactive", "MFA_Enabled": false, "Encryption": null, "Owner": "diana@company.com"},
+  {"AssetID": "SRV-009", "Type": "Server", "Status": "active", "MFA_Enabled": true, "Encryption": "AES-128", "Owner": ""}
+]
