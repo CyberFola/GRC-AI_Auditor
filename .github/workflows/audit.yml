@@ -1,0 +1,39 @@
+name: Automated GRC Audit
+
+on:
+  workflow_dispatch: # Allows manual testing
+  schedule:
+    - cron: '0 9 * * 1' # Runs every Monday at 9:00 AM UTC
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  run-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the AI Security Auditor
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python cleaner.py
+
+      # This is the new magic step! It saves your CSV files so you can download them.
+      - name: Save Risk Register as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GRC-Audit-Reports
+          path: |
+            cleaned_assets.csv
+            risk_register.csv
