@@ -1,0 +1,3 @@
+AssetID,Owner,Vulnerability,AI_Mitigation_Plan
+SRV-001,alice@company.com,Missing MFA or Encryption,Implement Multi-Factor Authentication (MFA) immediately for all administrative and user access to SRV-001. This is a critical security control to prevent unauthorized access and rectify the severe compliance violation related to authentication standards.
+SRV-002,bob@company.com,Missing MFA or Encryption,"**SRV-002 requires immediate remediation.** Mandate immediate implementation of multi-factor authentication for all administrative and user access, and concurrently enable full disk encryption or equivalent data-at-rest encryption on the server."

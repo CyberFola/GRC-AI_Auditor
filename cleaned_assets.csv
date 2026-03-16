@@ -1,0 +1,6 @@
+AssetID,Type,Status,MFA_Enabled,Encryption,Owner
+SRV-001,Server,Active,False,AES-256,alice@company.com
+SRV-002,server,Active,0.0,None,bob@company.com
+USR-105,Employee Account,Active,1.0,N/A,charlie@company.com
+DB-044,Database,Inactive,0.0,Unencrypted,diana@company.com
+SRV-009,Server,Active,1.0,AES-128,
