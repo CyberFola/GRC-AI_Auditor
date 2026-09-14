@@ -1,5 +1,3 @@
 AssetID,Owner,Vulnerability,AI_Mitigation_Plan
-SRV-001,alice@company.com,Missing MFA or Encryption,"**Mitigation Strategy:**
-
-Immediately implement and enforce Multi-Factor Authentication (MFA) for all administrative and user access to SRV-001. A subsequent audit of the server fleet is required to identify and remediate any other assets lacking mandatory MFA controls."
-SRV-002,bob@company.com,Missing MFA or Encryption,"SRV-002 is in severe violation; immediately enable mandatory multi-factor authentication for all administrative and user access. Furthermore, full disk encryption must be implemented on SRV-002 without delay to protect sensitive data at rest."
+SRV-001,alice@company.com,Missing MFA or Encryption,Immediate implementation of mandatory multi-factor authentication (MFA) on SRV-001 is required to rectify this critical access control violation. This action is essential for strengthening user authentication and ensuring compliance with our established security policies.
+SRV-002,bob@company.com,Missing MFA or Encryption,"This asset exhibits critical security deficiencies. Immediately enable multi-factor authentication (MFA) for all administrative and user access to SRV-002. Furthermore, implement full disk encryption (FDE) on SRV-002 and enforce encryption for all data in transit to and from the server using approved protocols."
