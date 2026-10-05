@@ -1,3 +1,3 @@
 AssetID,Owner,Vulnerability,AI_Mitigation_Plan
-SRV-001,alice@company.com,Missing MFA or Encryption,Immediate implementation of multi-factor authentication (MFA) on SRV-001 is mandated to rectify this critical control deficiency. Failure to deploy MFA within 24 hours will result in an elevated risk posture and further enforcement actions.
-SRV-002,bob@company.com,Missing MFA or Encryption,"Immediately implement multi-factor authentication (MFA) on SRV-002 for all privileged and standard user accounts. Furthermore, enable full disk encryption to protect all data at rest on the server."
+SRV-001,alice@company.com,Missing MFA or Encryption,"Immediately enable Multi-Factor Authentication (MFA) on SRV-001 as it represents a critical security vulnerability and a direct compliance violation. Submit proof of MFA enablement to GRC within 24 hours, or SRV-001 will be subject to isolation."
+SRV-002,bob@company.com,Missing MFA or Encryption,"This asset is critically non-compliant. Immediately implement and enforce Multi-Factor Authentication for all administrative and user access to SRV-002, and enable full-disk encryption to protect all data at rest."
